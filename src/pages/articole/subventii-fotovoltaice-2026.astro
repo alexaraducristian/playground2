@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<Layout title="Subvenții fotovoltaice 2026: ce programe mai sunt disponibile | AlexaVolt" description="Subvenții fotovoltaice 2026: status Casa Verde AFM, TVA 0% pentru instalații sub 50kW, credit verde și alternative de finanțare.">
+<Layout title="Subvenții fotovoltaice 2026: ce programe mai sunt disponibile | AlexaVolt" description="Subvenții fotovoltaice 2026: status Casa Verde AFM suspendat pentru panouri noi, TVA redus 11% pentru instalații sub 50kW, credit verde și alternative de finanțare.">
   <Header />
 
   <main class="max-w-4xl mx-auto px-6 py-12 font-sans text-slate-800">
@@ -47,9 +47,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </h2>
         <div class="space-y-4">
           <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
-            <h3 class="font-bold text-emerald-800 mb-2">1. TVA 0% pentru instalații sub 50 kW</h3>
+            <h3 class="font-bold text-emerald-800 mb-2">1. TVA redus pentru echipamente fotovoltaice</h3>
             <p class="text-sm text-slate-600">
-              Cea mai concretă „subvenție" activă: achiziția de panouri fotovoltaice, invertoare și componente aferente pentru sisteme sub 50 kW beneficiază de <strong>TVA 0%</strong>. Asta înseamnă o economie reală de 19% din costul echipamentelor.
+              Din August 2025, TVA standard în România a crescut la <strong>21%</strong>. Echipamentele fotovoltaice pentru sisteme rezidențiale sub 50 kW beneficiază de <strong>TVA redus (11%)</strong> în loc de rata standard. Asta înseamnă o economie de ~10% față de TVA standard pe costul echipamentelor. Verifică cu instalatorul eligibilitatea exactă — legislația se poate actualiza.
             </p>
           </div>
           <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
@@ -95,8 +95,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
                 <td class="p-3"><span class="text-emerald-600 font-bold">Activ</span></td>
               </tr>
               <tr class="border-t border-slate-100">
-                <td class="p-3 font-semibold">TVA 0%</td>
-                <td class="p-3">~19% din echipamente</td>
+                <td class="p-3 font-semibold">TVA redus (11%)</td>
+                <td class="p-3">~10% economie vs TVA 21%</td>
                 <td class="p-3">Oricine, sub 50 kW</td>
                 <td class="p-3"><span class="text-emerald-600 font-bold">Activ</span></td>
               </tr>
@@ -123,8 +123,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </h2>
         <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100">
           <ul class="space-y-3 text-slate-700">
-            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Nu aștepta subvenții care poate nu vor veni.</strong> Cu TVA 0% și prețurile actuale ale energiei, amortizarea e deja de 3-4 ani fără nicio subvenție.</li>
-            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Verifică dacă instalatorul aplică corect TVA 0%.</strong> E nevoie de declarație pe proprie răspundere și respectarea plafonului de 50 kW.</li>
+            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Nu aștepta subvenții care poate nu vor veni.</strong> Cu TVA redus și prețurile actuale ale energiei, amortizarea e deja de 4-5 ani fără nicio subvenție directă.</li>
+            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Verifică regimul TVA cu instalatorul.</strong> TVA-ul standard a crescut la 21% din August 2025. Echipamentele fotovoltaice rezidențiale sub 50 kW beneficiază de TVA redus — cere factură separată pe componente.</li>
             <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Compară creditele verzi de la 3-4 bănci.</strong> Diferențele de dobândă pot însemna mii de lei pe durata creditului.</li>
             <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Investiția se justifică și fără subvenție</strong> — energia scumpă face ca ROI-ul să fie excelent oricum.</li>
           </ul>
@@ -134,9 +134,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <section class="mb-12 bg-slate-900 text-white p-8 rounded-3xl">
         <h2 class="text-2xl font-bold mb-4">📅 Timeline estimat 2026</h2>
         <ul class="space-y-3 text-slate-300">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2026 S1:</strong> TVA 0% activ, Casa Verde baterii activ</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2025 Aug:</strong> TVA standard crește la 21%. TVA redus 11% pentru fotovoltaice rezidențiale.</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2026 S1:</strong> Casa Verde baterii activ pentru prosumatori existenți. Casa Verde panouri noi — suspendat.</li>
           <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2026 S2:</strong> Posibilă nouă sesiune Casa Verde baterii</li>
-          <li class="flex items-start gap-3"><span class="text-amber-400 font-bold">→</span> <strong class="text-white">2027:</strong> Incert — monitorizăm anunțurile AFM</li>
+          <li class="flex items-start gap-3"><span class="text-amber-400 font-bold">→</span> <strong class="text-white">2027:</strong> Incert — monitorizăm anunțurile AFM și eventuale programe noi</li>
         </ul>
       </section>
 
