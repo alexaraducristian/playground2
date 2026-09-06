@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+/* AlexaVolt design tokens (Tailwind v4)
+   - brand  = albastru (încredere / brand)
+   - urgent = portocaliu-roșu (acțiune urgentă: apel / urgențe)
+   - solar  = verde (strict fotovoltaice / eco)
+   - wa     = verde WhatsApp real
+*/
+@theme {
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-brand-800: #1e40af;
+  --color-brand-900: #1e3a8a;
+
+  --color-urgent-50: #fff7ed;
+  --color-urgent-100: #ffedd5;
+  --color-urgent-500: #f97316;
+  --color-urgent-600: #ea580c;
+  --color-urgent-700: #c2410c;
+
+  --color-solar-50: #ecfdf5;
+  --color-solar-100: #d1fae5;
+  --color-solar-600: #059669;
+  --color-solar-700: #047857;
+
+  --color-wa: #25d366;
+  --color-wa-dark: #1ebe5a;
+}
