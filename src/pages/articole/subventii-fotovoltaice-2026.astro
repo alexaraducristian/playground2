@@ -6,68 +6,72 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<Layout title="Subvenții fotovoltaice 2026: ce programe mai sunt disponibile | AlexaVolt" description="Subvenții fotovoltaice 2026: status Casa Verde AFM suspendat pentru panouri noi, TVA redus 11% pentru instalații sub 50kW, credit verde și alternative de finanțare.">
+<Layout title="Subvenții și finanțare fotovoltaice — surse oficiale | AlexaVolt" description="Programe de finanțare pentru panouri fotovoltaice în România (Casa Verde, Electric Up, credite verzi). Îndrumare către sursele oficiale AFM, ANRE și programele guvernamentale.">
   <Header />
 
   <main class="max-w-4xl mx-auto px-6 py-12 font-sans text-slate-800">
 
-    <Breadcrumb pagina="Subvenții fotovoltaice 2026" parent="📚 Ghid Practic" parentHref={`${base}/articole/`} />
+    <Breadcrumb pagina="Subvenții fotovoltaice" parent="📚 Ghid Practic" parentHref={`${base}/articole/`} />
 
     <article>
       <header class="mb-12 border-b border-slate-100 pb-10">
         <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4 leading-tight">
-          Subvenții fotovoltaice <span class="text-emerald-600">2026</span>: ce programe mai sunt disponibile
+          Subvenții și finanțare <span class="text-emerald-600">fotovoltaice</span>: de unde te informezi
         </h1>
         <p class="text-lg text-slate-600 leading-relaxed">
-          Ghid actualizat cu toate opțiunile de finanțare pentru panouri solare în România — ce s-a schimbat și ce alternative ai.
+          Programele de finanțare pentru panouri solare (Casa Verde, Electric Up, credite verzi) se schimbă frecvent — plafoane, sesiuni și condiții de eligibilitate diferă de la un an la altul. Ca să ai mereu informația corectă și la zi, cel mai sigur e să consulți direct sursele oficiale.
         </p>
       </header>
 
       <section class="mb-12">
-        <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-          <span>📋</span> Situația Casa Verde AFM în 2026
-        </h2>
-        <p class="text-slate-600 mb-4 leading-relaxed">
-          Programul Casa Verde Fotovoltaice, administrat de AFM (Administrația Fondului pentru Mediu), a fost principalul motor al adopției solare în România. Însă în 2026, <strong>programul nu mai finanțează instalații fotovoltaice noi</strong> pentru persoane fizice.
-        </p>
-        <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-          <h3 class="font-bold text-amber-800 mb-2">⚠️ Ce s-a schimbat</h3>
-          <p class="text-sm text-slate-700">
-            România a trecut de la subvenții pentru panouri solare la <strong>subvenții pentru sisteme de stocare (baterii)</strong> destinate prosumatorilor existenți. Acest lucru reflectă faptul că piața fotovoltaică s-a maturizat, iar prioritatea e acum stabilizarea rețelei prin stocare.
+        <div class="bg-amber-50 p-6 rounded-2xl border border-amber-100">
+          <h2 class="text-lg font-bold text-amber-900 mb-2 flex items-center gap-2">
+            <span>⚠️</span> De ce trimitem către sursele oficiale
+          </h2>
+          <p class="text-sm text-slate-700 leading-relaxed">
+            Condițiile programelor de finanțare (bugete, plafoane, date de depunere, cine e eligibil) sunt stabilite și actualizate de instituțiile statului. Pentru a evita informații depășite, nu publicăm aici cifre care se pot schimba peste noapte. Verifică întotdeauna statusul curent pe paginile oficiale de mai jos înainte de a lua o decizie.
           </p>
         </div>
-        <p class="text-slate-600 mb-4 leading-relaxed">
-          Concret, dacă ai deja un sistem fotovoltaic și ești prosumator, poți aplica pentru finanțarea unei baterii de stocare. Dacă nu ai panouri încă, va trebui să explorezi alte opțiuni de finanțare.
-        </p>
       </section>
 
       <section class="mb-12">
         <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-          <span>💰</span> Alternative de finanțare disponibile
+          <span>🏛️</span> Surse oficiale — programe de finanțare
         </h2>
         <div class="space-y-4">
           <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
-            <h3 class="font-bold text-emerald-800 mb-2">1. TVA redus pentru echipamente fotovoltaice</h3>
-            <p class="text-sm text-slate-600">
-              Din August 2025, TVA standard în România a crescut la <strong>21%</strong>. Echipamentele fotovoltaice pentru sisteme rezidențiale sub 50 kW beneficiază de <strong>TVA redus (11%)</strong> în loc de rata standard. Asta înseamnă o economie de ~10% față de TVA standard pe costul echipamentelor. Verifică cu instalatorul eligibilitatea exactă — legislația se poate actualiza.
+            <a href="https://www.afm.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold hover:text-blue-900 transition-colors">
+              AFM — Administrația Fondului pentru Mediu ↗
+            </a>
+            <p class="text-sm text-slate-600 mt-1">
+              Instituția care administrează programul Casa Verde (fotovoltaice și stocare). Aici găsești ghidurile de finanțare, sesiunile active, calendarul de depunere și lista instalatorilor validați.
             </p>
           </div>
+
           <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
-            <h3 class="font-bold text-emerald-800 mb-2">2. Credite verzi bancare</h3>
-            <p class="text-sm text-slate-600">
-              Majoritatea băncilor din România oferă credite dedicate investițiilor verzi cu dobânzi preferențiale (cu 1-3% mai mici decât creditele de consum standard). BRD, BCR, Banca Transilvania și ING au produse specifice pentru fotovoltaice.
+            <a href="https://www.mmediu.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold hover:text-blue-900 transition-colors">
+              Ministerul Mediului, Apelor și Pădurilor ↗
+            </a>
+            <p class="text-sm text-slate-600 mt-1">
+              Ministerul care stabilește politicile și programele de finanțare pentru energie verde și eficiență energetică.
             </p>
           </div>
+
           <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
-            <h3 class="font-bold text-emerald-800 mb-2">3. Rate la furnizor / finanțare prin instalator</h3>
-            <p class="text-sm text-slate-600">
-              Unii instalatori oferă sisteme în rate prin parteneriate cu instituții financiare (TBI, BRD Finance). Avantajul: un singur interlocutor și proces simplificat.
+            <a href="https://program-electricup.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold hover:text-blue-900 transition-colors">
+              Electric Up — program pentru IMM-uri și HORECA ↗
+            </a>
+            <p class="text-sm text-slate-600 mt-1">
+              Program guvernamental de finanțare pentru firme care instalează sisteme fotovoltaice și stații de încărcare pentru vehicule electrice.
             </p>
           </div>
+
           <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
-            <h3 class="font-bold text-emerald-800 mb-2">4. Fonduri europene (pentru firme)</h3>
-            <p class="text-sm text-slate-600">
-              IMM-urile și firmele pot accesa fonduri prin PNRR sau programul Electric Up pentru instalarea de sisteme fotovoltaice pe clădiri comerciale/industriale.
+            <a href="https://mfe.gov.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold hover:text-blue-900 transition-colors">
+              Ministerul Investițiilor și Proiectelor Europene (PNRR) ↗
+            </a>
+            <p class="text-sm text-slate-600 mt-1">
+              Fonduri europene și componente PNRR pentru energie regenerabilă, accesibile în special pentru firme și autorități.
             </p>
           </div>
         </div>
@@ -75,70 +79,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       <section class="mb-12">
         <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-          <span>📊</span> Comparație opțiuni de finanțare
+          <span>⚡</span> Surse oficiale — statutul de prosumator și energie
         </h2>
-        <div class="overflow-x-auto">
-          <table class="w-full text-sm border-collapse">
-            <thead>
-              <tr class="bg-slate-100 text-slate-800">
-                <th class="p-3 text-left rounded-tl-lg">Opțiune</th>
-                <th class="p-3 text-left">Economie</th>
-                <th class="p-3 text-left">Eligibilitate</th>
-                <th class="p-3 text-left rounded-tr-lg">Status 2026</th>
-              </tr>
-            </thead>
-            <tbody class="text-slate-600">
-              <tr class="border-t border-slate-100">
-                <td class="p-3 font-semibold">Casa Verde (baterii)</td>
-                <td class="p-3">Până la 30,000 lei</td>
-                <td class="p-3">Prosumatori existenți</td>
-                <td class="p-3"><span class="text-emerald-600 font-bold">Activ</span></td>
-              </tr>
-              <tr class="border-t border-slate-100">
-                <td class="p-3 font-semibold">TVA redus (11%)</td>
-                <td class="p-3">~10% economie vs TVA 21%</td>
-                <td class="p-3">Oricine, sub 50 kW</td>
-                <td class="p-3"><span class="text-emerald-600 font-bold">Activ</span></td>
-              </tr>
-              <tr class="border-t border-slate-100">
-                <td class="p-3 font-semibold">Credit verde</td>
-                <td class="p-3">Dobândă redusă 1-3%</td>
-                <td class="p-3">Cu scoring bancar</td>
-                <td class="p-3"><span class="text-emerald-600 font-bold">Activ</span></td>
-              </tr>
-              <tr class="border-t border-slate-100">
-                <td class="p-3 font-semibold">Casa Verde (panouri noi)</td>
-                <td class="p-3">—</td>
-                <td class="p-3">—</td>
-                <td class="p-3"><span class="text-red-600 font-bold">Suspendat</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
+            <a href="https://www.anre.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold hover:text-blue-900 transition-colors">
+              ANRE — Autoritatea Națională de Reglementare în domeniul Energiei ↗
+            </a>
+            <p class="text-sm text-slate-600 mt-1">
+              Reglementările privind prosumatorii, racordarea la rețea, compensarea energiei injectate și tarifele. Aici se publică legislația și modificările în vigoare.
+            </p>
+          </div>
 
-      <section class="mb-12">
-        <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-          <span>🔑</span> Sfaturi practice
-        </h2>
-        <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100">
-          <ul class="space-y-3 text-slate-700">
-            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Nu aștepta subvenții care poate nu vor veni.</strong> Cu TVA redus și prețurile actuale ale energiei, amortizarea e deja de 4-5 ani fără nicio subvenție directă.</li>
-            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Verifică regimul TVA cu instalatorul.</strong> TVA-ul standard a crescut la 21% din August 2025. Echipamentele fotovoltaice rezidențiale sub 50 kW beneficiază de TVA redus — cere factură separată pe componente.</li>
-            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Compară creditele verzi de la 3-4 bănci.</strong> Diferențele de dobândă pot însemna mii de lei pe durata creditului.</li>
-            <li class="flex items-start gap-3"><span class="text-blue-600 font-bold">•</span> <strong>Investiția se justifică și fără subvenție</strong> — energia scumpă face ca ROI-ul să fie excelent oricum.</li>
-          </ul>
+          <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
+            <a href="https://www.anaf.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold hover:text-blue-900 transition-colors">
+              ANAF — regimul TVA și fiscalitate ↗
+            </a>
+            <p class="text-sm text-slate-600 mt-1">
+              Pentru cota de TVA aplicabilă echipamentelor și lucrărilor fotovoltaice, consultă legislația fiscală în vigoare sau discută cu un contabil autorizat.
+            </p>
+          </div>
         </div>
-      </section>
-
-      <section class="mb-12 bg-slate-900 text-white p-8 rounded-3xl">
-        <h2 class="text-2xl font-bold mb-4">📅 Timeline estimat 2026</h2>
-        <ul class="space-y-3 text-slate-300">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2025 Aug:</strong> TVA standard crește la 21%. TVA redus 11% pentru fotovoltaice rezidențiale.</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2026 S1:</strong> Casa Verde baterii activ pentru prosumatori existenți. Casa Verde panouri noi — suspendat.</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold">→</span> <strong class="text-white">2026 S2:</strong> Posibilă nouă sesiune Casa Verde baterii</li>
-          <li class="flex items-start gap-3"><span class="text-amber-400 font-bold">→</span> <strong class="text-white">2027:</strong> Incert — monitorizăm anunțurile AFM și eventuale programe noi</li>
-        </ul>
       </section>
 
       <section class="mb-12 bg-slate-50 p-6 rounded-2xl border border-slate-100">
@@ -150,43 +111,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </ul>
       </section>
 
-      <section class="mb-12 bg-blue-50 p-6 rounded-2xl border border-blue-100">
-        <h2 class="text-xl font-bold text-blue-800 mb-4">🔗 Surse oficiale și informații suplimentare</h2>
-        <ul class="space-y-3">
-          <li>
-            <a href="https://afm.ro" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-              AFM.ro — Administrația Fondului pentru Mediu (site oficial) ↗
-            </a>
-            <p class="text-xs text-slate-500 mt-0.5">Sursa oficială pentru programe Casa Verde, depuneri dosare și sesiuni active.</p>
-          </li>
-          <li>
-            <a href="https://www.pv-magazine.com/2026/05/18/romania-moves-from-solar-to-storage-rebates/" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-              PV Magazine: Romania trece de la subvenții solare la subvenții pentru baterii (2026) ↗
-            </a>
-            <p class="text-xs text-slate-500 mt-0.5">Analiză detaliată a schimbării de direcție a programului Casa Verde în 2026.</p>
-          </li>
-          <li>
-            <a href="https://program-electricup.ro/" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-              Electric Up — Fonduri nerambursabile pentru IMM-uri ↗
-            </a>
-            <p class="text-xs text-slate-500 mt-0.5">Program alternativ cu până la 150.000€ pentru firme: fotovoltaice + stocare + stații EV.</p>
-          </li>
-          <li>
-            <a href="https://anre.ro" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-              ANRE.ro — Autoritatea Națională de Reglementare în Energie ↗
-            </a>
-            <p class="text-xs text-slate-500 mt-0.5">Reglementări prosumator, tarife compensare și legislație energie regenerabilă.</p>
-          </li>
-        </ul>
-      </section>
-
       <section class="text-center border-t border-slate-100 pt-10">
-        <h2 class="text-2xl font-bold mb-4 text-slate-900">Vrei să afli ce opțiune e optimă pentru tine?</h2>
+        <h2 class="text-2xl font-bold mb-4 text-slate-900">Vrei să afli ce soluție e potrivită pentru tine?</h2>
         <p class="text-slate-600 mb-8 max-w-2xl mx-auto">
-          AlexaVolt te ajută să navighezi opțiunile financiare și să alegi soluția cu cel mai bun ROI pentru situația ta.
+          AlexaVolt te ajută cu dimensionarea sistemului și procesul tehnic de racordare. Pentru situația exactă a programelor de finanțare, îți recomandăm să verifici sursele oficiale de mai sus.
         </p>
         <a href={`${base}/contact/`} class="inline-block bg-blue-600 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-blue-700 transition-all shadow-xl hover:-translate-y-1">
-          Solicită consultanță financiară
+          Solicită consultanță tehnică
         </a>
       </section>
     </article>

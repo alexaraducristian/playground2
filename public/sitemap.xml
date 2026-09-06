@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Fișier index de sitemap, păstrat cu numele sitemap.xml pentru compatibilitate
+  cu URL-ul deja înregistrat în Google Search Console.
+  Lista efectivă de URL-uri (sitemap-0.xml) este generată automat de
+  @astrojs/sitemap la fiecare build și rămâne mereu sincronizată cu site-ul.
+-->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.alexavolt.ro/sitemap-0.xml</loc>
